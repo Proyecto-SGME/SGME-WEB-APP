@@ -1,0 +1,24 @@
+E:\Titulo\SMVM_1\Entity\bin\Debug\Entity.dll
+E:\Titulo\SMVM_1\Entity\bin\Debug\Entity.pdb
+E:\Titulo\SMVM_1\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\Titulo\SMVM_1\Entity\obj\Debug\Entity.dll
+E:\Titulo\SMVM_1\Entity\obj\Debug\Entity.pdb
+E:\VisualStudio\SMVM_1\Entity\bin\Debug\Entity.dll
+E:\VisualStudio\SMVM_1\Entity\bin\Debug\Entity.pdb
+E:\VisualStudio\SMVM_1\Entity\obj\Debug\Entity.dll
+E:\VisualStudio\SMVM_1\Entity\obj\Debug\Entity.pdb
+C:\Titulo\SMVM_1\Entity\bin\Debug\Entity.dll
+C:\Titulo\SMVM_1\Entity\bin\Debug\Entity.pdb
+C:\Titulo\SMVM_1\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Titulo\SMVM_1\Entity\obj\Debug\Entity.dll
+C:\Titulo\SMVM_1\Entity\obj\Debug\Entity.pdb
+D:\Version 2\SMVM_1\Entity\bin\Debug\Entity.dll
+D:\Version 2\SMVM_1\Entity\bin\Debug\Entity.pdb
+D:\Version 2\SMVM_1\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+D:\Version 2\SMVM_1\Entity\obj\Debug\Entity.dll
+D:\Version 2\SMVM_1\Entity\obj\Debug\Entity.pdb
+C:\Titulo\SGME\Entity\bin\Debug\Entity.dll
+C:\Titulo\SGME\Entity\bin\Debug\Entity.pdb
+C:\Titulo\SGME\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Titulo\SGME\Entity\obj\Debug\Entity.dll
+C:\Titulo\SGME\Entity\obj\Debug\Entity.pdb

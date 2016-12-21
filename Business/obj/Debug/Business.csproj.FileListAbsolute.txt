@@ -1,0 +1,60 @@
+E:\Titulo\SMVM_1\Business\bin\Debug\Business.dll
+E:\Titulo\SMVM_1\Business\bin\Debug\Business.pdb
+E:\Titulo\SMVM_1\Business\bin\Debug\Controller.dll
+E:\Titulo\SMVM_1\Business\bin\Debug\Configuration.dll
+E:\Titulo\SMVM_1\Business\bin\Debug\Controller.pdb
+E:\Titulo\SMVM_1\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Titulo\SMVM_1\Business\obj\Debug\Business.dll
+E:\Titulo\SMVM_1\Business\obj\Debug\Business.pdb
+E:\Titulo\SMVM_1\Business\bin\Debug\Entity.dll
+E:\Titulo\SMVM_1\Business\bin\Debug\Entity.pdb
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Business.dll
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Business.pdb
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Controller.dll
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Entity.dll
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Configuration.dll
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Controller.pdb
+E:\VisualStudio\SMVM_1\Business\bin\Debug\Entity.pdb
+E:\VisualStudio\SMVM_1\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\VisualStudio\SMVM_1\Business\obj\Debug\Business.dll
+E:\VisualStudio\SMVM_1\Business\obj\Debug\Business.pdb
+C:\Titulo\SMVM_1\Business\bin\Debug\Business.dll
+C:\Titulo\SMVM_1\Business\bin\Debug\Business.pdb
+C:\Titulo\SMVM_1\Business\bin\Debug\Controller.dll
+C:\Titulo\SMVM_1\Business\bin\Debug\Entity.dll
+C:\Titulo\SMVM_1\Business\bin\Debug\Configuration.dll
+C:\Titulo\SMVM_1\Business\bin\Debug\Controller.pdb
+C:\Titulo\SMVM_1\Business\bin\Debug\Entity.pdb
+C:\Titulo\SMVM_1\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Titulo\SMVM_1\Business\obj\Debug\Business.dll
+C:\Titulo\SMVM_1\Business\obj\Debug\Business.pdb
+D:\Version 2\SMVM_1\Business\bin\Debug\Business.dll
+D:\Version 2\SMVM_1\Business\bin\Debug\Business.pdb
+D:\Version 2\SMVM_1\Business\bin\Debug\Controller.dll
+D:\Version 2\SMVM_1\Business\bin\Debug\Entity.dll
+D:\Version 2\SMVM_1\Business\bin\Debug\Configuration.dll
+D:\Version 2\SMVM_1\Business\bin\Debug\Controller.pdb
+D:\Version 2\SMVM_1\Business\bin\Debug\Entity.pdb
+D:\Version 2\SMVM_1\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Version 2\SMVM_1\Business\obj\Debug\Business.dll
+D:\Version 2\SMVM_1\Business\obj\Debug\Business.pdb
+C:\Titulo\SGME\Business\bin\Debug\Business.dll
+C:\Titulo\SGME\Business\bin\Debug\Business.pdb
+C:\Titulo\SGME\Business\bin\Debug\Controller.dll
+C:\Titulo\SGME\Business\bin\Debug\Entity.dll
+C:\Titulo\SGME\Business\bin\Debug\Configuration.dll
+C:\Titulo\SGME\Business\bin\Debug\Controller.pdb
+C:\Titulo\SGME\Business\bin\Debug\Entity.pdb
+C:\Titulo\SGME\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Titulo\SGME\Business\obj\Debug\Business.dll
+C:\Titulo\SGME\Business\obj\Debug\Business.pdb
+E:\Titulo\SGME\Business\bin\Debug\Business.dll
+E:\Titulo\SGME\Business\bin\Debug\Business.pdb
+E:\Titulo\SGME\Business\bin\Debug\Controller.dll
+E:\Titulo\SGME\Business\bin\Debug\Entity.dll
+E:\Titulo\SGME\Business\bin\Debug\Configuration.dll
+E:\Titulo\SGME\Business\bin\Debug\Controller.pdb
+E:\Titulo\SGME\Business\bin\Debug\Entity.pdb
+E:\Titulo\SGME\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Titulo\SGME\Business\obj\Debug\Business.dll
+E:\Titulo\SGME\Business\obj\Debug\Business.pdb

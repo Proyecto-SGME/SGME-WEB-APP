@@ -1,0 +1,318 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="home.master.cs" Inherits="SMVM_1.home" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SMVM</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" />
+    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
+    <link rel="stylesheet" href="plugins/timepicker/bootstrap-timepicker.min.css">
+    <script src="plugins/timepicker/bootstrap-timepicker.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.0.1.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+    <form id="form1" runat="server">
+        <div class="wrapper">
+            <header class="main-header">
+                <a href="<%= Page.ResolveUrl("~/view/frmPrincipal.aspx") %>" class="logo">
+                    <span class="logo-mini"><b>S</b>MVM</span>
+                    <span class="logo-lg"><b>S</b>MVM</span>
+                </a>
+                <nav class="navbar navbar-static-top">
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <div class="user-panel">
+                        <%--<div class="pull-left image">
+                            <img src="../../dist/img/avatar.png" class="img-circle" alt="User Image">
+                        </div>--%>
+                        <div class="pull-left image">
+                            <h5 style="color:whitesmoke"><div id="nombreUsuario" runat="server"></div></h5>
+                         <%--   <i class="fa fa-circle text-success"></i>Online--%>
+                        </div>
+                    </div>
+                    <ul class="sidebar-menu">
+                        <li class="header">MENU PRINCIPAL SMVM</li>
+                        <!--00 Metricas -->
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-pie-chart"></i>
+                                <span>Metricas</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="#"><i class="fa fa-circle-o"></i>Eventos</a></li>
+                                <li><a href="#"><i class="fa fa-circle-o"></i>Maquinas</a></li>
+                                <li><a href="#"><i class="fa fa-circle-o"></i>Metrica 3</a></li>
+                                <li><a href="#"><i class="fa fa-circle-o"></i>Metrica 4</a></li>
+                            </ul>
+                        </li>
+                        <!--01 Eventos -->
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-edit"></i><span>Eventos</span>
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmRegistroEvento.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Registro de Eventos</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmDetalleEventos.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Detalles de Evento</a></li>
+                            </ul>
+                        </li>
+                        <%--02 Usuarios--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-user"></i>Usuarios
+                                <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmUsuarios.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Usuario</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmUsuarioCambiaClave.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Cambio Clave</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmCreaTipoUsuario.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Tipo Usuario</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmListarUsuarios.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Listar Usuarios</a></li>
+                            </ul>
+                        </li>
+                        <%--03 Rutas--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-location-arrow"></i>Rutas
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/03_Rutas/frmCreaRuta.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Ruta de Trabajo</a></li>
+                            </ul>
+                        </li>
+                        <%--04 Maquinas--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-database"></i>Maquinas
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/04_Maquinas/frmCreaMaquina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Maquina</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/04_Maquinas/frmInstalacionMaquina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Instalación Maquina</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/04_Maquinas/frmCrearMarcaModelo.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Marca y Modelo</a></li>
+                            </ul>
+                        </li>
+                        <%--05 Ubicaciones--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-sitemap"></i>Ubicaciones
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmCreaUbicacion.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Ubicación</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmCreaHorarioUbicacion.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Horarios Ubicación</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmUbicacionElimina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Elimina Ubicación</a></li>
+
+                            </ul>
+                        </li>
+                        <%--06 Direcciones--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-home"></i>Direcciones
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/06_Direcciones/frmCreaDireccion.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Dirección</a></li>
+                                <%--<li><a href="<%= Page.ResolveUrl("~/view/06_Direcciones/frmDireccionElimina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Elimina Dirección</a></li>--%>
+                            </ul>
+                        </li>
+                        <%--07 Clientes--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-laptop"></i>Clientes
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="<%= Page.ResolveUrl("~/view/07_Clientes/frmClientes.aspx") %>">
+                                        <i class="fa fa-circle-o"></i>Crea Cliente</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/07_Clientes/frmClienteActualiza.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Nuevo Dato Cliente</a></li>
+                            </ul>
+                        </li>
+                        <%--08 Contacto--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-cloud"></i>Contactos
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmCreaContacto.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Crea Contacto</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmContactoElimina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Elimina Contacto</a></li>
+                            </ul>
+                        </li>
+                        <%--09 Otros--%>
+                        <%--<li class="">
+                            <a href="#"><i class="fa fa-circle-o"></i>Otros
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="#"><i class="fa fa-circle-o"></i>Otros 1</a></li>
+                                <li><a href="#"><i class="fa fa-circle-o"></i>Otros 2</a></li>
+                            </ul>
+                        </li>--%>
+                        <li class="header">AVISOS</li>
+                        <li><a href="#"><i class="fa fa-circle-o text-red"></i><span>Importante</span></a></li>
+                        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i><span>Información</span></a></li>
+                    </ul>
+                </section>
+            </aside>
+            <div class="content-wrapper">
+                <section class="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+                <asp:HiddenField ID ="idUser" runat="server" />
+                <asp:HiddenField ID ="nomUsuario" runat="server" />
+                
+            </div>
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 0.0.1
+                </div>
+                <strong>Copyright &copy; 2016 <a href="http://usystem.cl">Micro Sistemas</a>.</strong>
+            </footer>
+            <aside class="control-sidebar control-sidebar-dark">
+                <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="control-sidebar-home-tab">
+                        <h3 class="control-sidebar-heading">Recent Activity</h3>
+                        <ul class="control-sidebar-menu">
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="menu-icon fa fa-birthday-cake bg-red"></i>
+                                    <div class="menu-info">
+                                        <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
+                                        <p>Will be 23 on April 24th</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="menu-icon fa fa-user bg-yellow"></i>
+
+                                    <div class="menu-info">
+                                        <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+                                        <p>New phone +1(800)555-1234</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
+                                    <div class="menu-info">
+                                        <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+                                        <p>nora@example.com</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <i class="menu-icon fa fa-file-code-o bg-green"></i>
+                                    <div class="menu-info">
+                                        <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+                                        <p>Execution time 5 seconds</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <h3 class="control-sidebar-heading">Tasks Progress</h3>
+                    </div>
+                    <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
+                </div>
+            </aside>
+
+            <div class="control-sidebar-bg"></div>
+        </div>
+        <script src="<%= Page.ResolveUrl("~/plugins/jQuery/jquery-2.2.3.min.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/bootstrap/js/bootstrap.min.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/plugins/slimScroll/jquery.slimscroll.min.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/plugins/fastclick/fastclick.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/dist/js/app.min.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/dist/js/demo.js") %>"></script>
+
+    </form>
+    <script src="../../plugins/select2/select2.full.min.js"></script>
+    <script src="../../plugins/input-mask/jquery.inputmask.js"></script>
+    <script src="../../plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+    <script src="../../plugins/input-mask/jquery.inputmask.extensions.js"></script>
+    <script src="../../plugins/datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../plugins/timepicker/bootstrap-timepicker.min.js"></script>
+    <script src="../../plugins/custom_js/ValidaRut.js"></script>
+    <script>
+        $(function () {
+
+            $(".select2").select2();
+            $("#datemask").inputmask("dd/mm/yyyy", { "placeholder": "dd/mm/yyyy" });
+            $("[data-mask]").inputmask();
+            $('#datepicker').datepicker({
+                autoclose: true
+            });
+            $(".timepicker").timepicker({
+                showInputs: false
+            });
+
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server" />
+
+</body>
+</html>

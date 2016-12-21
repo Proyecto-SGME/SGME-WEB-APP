@@ -1,0 +1,25 @@
+<<<<<<< HEAD
+C:\Titulo\SMVM_1\Controller\bin\Release\Controller.dll
+C:\Titulo\SMVM_1\Controller\bin\Release\Controller.pdb
+C:\Titulo\SMVM_1\Controller\bin\Release\Bluefragments.ConfigurationManager.dll
+C:\Titulo\SMVM_1\Controller\bin\Release\Configuration.dll
+C:\Titulo\SMVM_1\Controller\bin\Release\Entity.dll
+C:\Titulo\SMVM_1\Controller\bin\Release\Newtonsoft.Json.dll
+C:\Titulo\SMVM_1\Controller\bin\Release\Entity.pdb
+C:\Titulo\SMVM_1\Controller\bin\Release\Newtonsoft.Json.xml
+C:\Titulo\SMVM_1\Controller\obj\Release\Controller.csprojResolveAssemblyReference.cache
+C:\Titulo\SMVM_1\Controller\obj\Release\Controller.dll
+C:\Titulo\SMVM_1\Controller\obj\Release\Controller.pdb
+=======
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Controller.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Controller.pdb
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Bluefragments.ConfigurationManager.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Configuration.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Entity.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Newtonsoft.Json.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Entity.pdb
+E:\VisualStudio\SMVM_1\Controller\bin\Release\Newtonsoft.Json.xml
+E:\VisualStudio\SMVM_1\Controller\obj\Release\Controller.csprojResolveAssemblyReference.cache
+E:\VisualStudio\SMVM_1\Controller\obj\Release\Controller.dll
+E:\VisualStudio\SMVM_1\Controller\obj\Release\Controller.pdb
+>>>>>>> 4fd56549e48f9b1adac7993d003a5d61f0a14a3a

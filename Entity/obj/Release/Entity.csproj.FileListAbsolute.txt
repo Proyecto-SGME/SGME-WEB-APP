@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+C:\Titulo\SMVM_1\Entity\bin\Release\Entity.dll
+C:\Titulo\SMVM_1\Entity\bin\Release\Entity.pdb
+C:\Titulo\SMVM_1\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+C:\Titulo\SMVM_1\Entity\obj\Release\Entity.dll
+C:\Titulo\SMVM_1\Entity\obj\Release\Entity.pdb
+=======
+E:\VisualStudio\SMVM_1\Entity\bin\Release\Entity.dll
+E:\VisualStudio\SMVM_1\Entity\bin\Release\Entity.pdb
+E:\VisualStudio\SMVM_1\Entity\obj\Release\Entity.csprojResolveAssemblyReference.cache
+E:\VisualStudio\SMVM_1\Entity\obj\Release\Entity.dll
+E:\VisualStudio\SMVM_1\Entity\obj\Release\Entity.pdb
+>>>>>>> 4fd56549e48f9b1adac7993d003a5d61f0a14a3a

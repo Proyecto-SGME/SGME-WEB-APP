@@ -1,0 +1,66 @@
+E:\Titulo\SMVM_1\Controller\bin\Debug\Controller.dll
+E:\Titulo\SMVM_1\Controller\bin\Debug\Controller.pdb
+E:\Titulo\SMVM_1\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+E:\Titulo\SMVM_1\Controller\bin\Debug\Configuration.dll
+E:\Titulo\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.dll
+E:\Titulo\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.xml
+E:\Titulo\SMVM_1\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+E:\Titulo\SMVM_1\Controller\obj\Debug\Controller.dll
+E:\Titulo\SMVM_1\Controller\obj\Debug\Controller.pdb
+E:\Titulo\SMVM_1\Controller\bin\Debug\Entity.dll
+E:\Titulo\SMVM_1\Controller\bin\Debug\Entity.pdb
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Controller.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Controller.pdb
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Configuration.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Entity.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.dll
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Entity.pdb
+E:\VisualStudio\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.xml
+E:\VisualStudio\SMVM_1\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+E:\VisualStudio\SMVM_1\Controller\obj\Debug\Controller.dll
+E:\VisualStudio\SMVM_1\Controller\obj\Debug\Controller.pdb
+C:\Titulo\SMVM_1\Controller\bin\Debug\Controller.dll
+C:\Titulo\SMVM_1\Controller\bin\Debug\Controller.pdb
+C:\Titulo\SMVM_1\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+C:\Titulo\SMVM_1\Controller\bin\Debug\Configuration.dll
+C:\Titulo\SMVM_1\Controller\bin\Debug\Entity.dll
+C:\Titulo\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.dll
+C:\Titulo\SMVM_1\Controller\bin\Debug\Entity.pdb
+C:\Titulo\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.xml
+C:\Titulo\SMVM_1\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Titulo\SMVM_1\Controller\obj\Debug\Controller.dll
+C:\Titulo\SMVM_1\Controller\obj\Debug\Controller.pdb
+D:\Version 2\SMVM_1\Controller\bin\Debug\Controller.dll
+D:\Version 2\SMVM_1\Controller\bin\Debug\Controller.pdb
+D:\Version 2\SMVM_1\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+D:\Version 2\SMVM_1\Controller\bin\Debug\Configuration.dll
+D:\Version 2\SMVM_1\Controller\bin\Debug\Entity.dll
+D:\Version 2\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.dll
+D:\Version 2\SMVM_1\Controller\bin\Debug\Entity.pdb
+D:\Version 2\SMVM_1\Controller\bin\Debug\Newtonsoft.Json.xml
+D:\Version 2\SMVM_1\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\Version 2\SMVM_1\Controller\obj\Debug\Controller.dll
+D:\Version 2\SMVM_1\Controller\obj\Debug\Controller.pdb
+C:\Titulo\SGME\Controller\bin\Debug\Controller.dll
+C:\Titulo\SGME\Controller\bin\Debug\Controller.pdb
+C:\Titulo\SGME\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+C:\Titulo\SGME\Controller\bin\Debug\Configuration.dll
+C:\Titulo\SGME\Controller\bin\Debug\Entity.dll
+C:\Titulo\SGME\Controller\bin\Debug\Newtonsoft.Json.dll
+C:\Titulo\SGME\Controller\bin\Debug\Entity.pdb
+C:\Titulo\SGME\Controller\bin\Debug\Newtonsoft.Json.xml
+C:\Titulo\SGME\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Titulo\SGME\Controller\obj\Debug\Controller.dll
+C:\Titulo\SGME\Controller\obj\Debug\Controller.pdb
+E:\Titulo\SGME\Controller\bin\Debug\Controller.dll
+E:\Titulo\SGME\Controller\bin\Debug\Controller.pdb
+E:\Titulo\SGME\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+E:\Titulo\SGME\Controller\bin\Debug\Configuration.dll
+E:\Titulo\SGME\Controller\bin\Debug\Entity.dll
+E:\Titulo\SGME\Controller\bin\Debug\Newtonsoft.Json.dll
+E:\Titulo\SGME\Controller\bin\Debug\Entity.pdb
+E:\Titulo\SGME\Controller\bin\Debug\Newtonsoft.Json.xml
+E:\Titulo\SGME\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+E:\Titulo\SGME\Controller\obj\Debug\Controller.dll
+E:\Titulo\SGME\Controller\obj\Debug\Controller.pdb

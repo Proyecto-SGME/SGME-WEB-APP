@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ConfigurationManager</id>
+    <version>1.0.9</version>
+    <title>Configuration Manager</title>
+    <authors>Bluefragments</authors>
+    <owners>Bluefragments</owners>
+    <iconUrl>http://bluefragments.com/wp-content/uploads/2016/03/configurationmanager.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Configruation Manager easy use of settings and text resources.</description>
+    <summary />
+    <tags>configurationmanager bluefragments</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="8.0.2" />
+    </dependencies>
+  </metadata>
+</package>
