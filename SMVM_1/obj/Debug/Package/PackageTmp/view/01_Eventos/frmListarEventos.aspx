@@ -16,7 +16,18 @@
             </div>
             <div class="box-body">
                 <!--Aqui iria el Contenido de la pagina-->
-                
+                <div class="box box-warning">
+
+                <div class="form-group">
+                            <label>Seleccione Estado de Eventos</label>
+                            <asp:DropDownList ID="ddlEstatoEvento" runat="server" Width="300px" class="form-control"  AutoPostBack="True" OnSelectedIndexChanged="ddlEstatoEvento_SelectedIndexChanged" ></asp:DropDownList>
+                        </div>
+                    </div>
+
+
+                    <div id="ListarEventos" runat="server" class="box-body no-padding">
+                    </div>
+                </div>
 
 
 

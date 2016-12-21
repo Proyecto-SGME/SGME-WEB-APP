@@ -22,3 +22,8 @@ C:\Titulo\SGME\Entity\bin\Debug\Entity.pdb
 C:\Titulo\SGME\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
 C:\Titulo\SGME\Entity\obj\Debug\Entity.dll
 C:\Titulo\SGME\Entity\obj\Debug\Entity.pdb
+C:\Titulo\SGME-WEB-APP\Entity\bin\Debug\Entity.dll
+C:\Titulo\SGME-WEB-APP\Entity\bin\Debug\Entity.pdb
+C:\Titulo\SGME-WEB-APP\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Titulo\SGME-WEB-APP\Entity\obj\Debug\Entity.dll
+C:\Titulo\SGME-WEB-APP\Entity\obj\Debug\Entity.pdb

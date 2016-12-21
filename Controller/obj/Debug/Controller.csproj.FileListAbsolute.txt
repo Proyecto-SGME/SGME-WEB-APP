@@ -64,3 +64,14 @@ E:\Titulo\SGME\Controller\bin\Debug\Newtonsoft.Json.xml
 E:\Titulo\SGME\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
 E:\Titulo\SGME\Controller\obj\Debug\Controller.dll
 E:\Titulo\SGME\Controller\obj\Debug\Controller.pdb
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Controller.dll
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Controller.pdb
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Configuration.dll
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Entity.dll
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Newtonsoft.Json.dll
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Entity.pdb
+C:\Titulo\SGME-WEB-APP\Controller\bin\Debug\Newtonsoft.Json.xml
+C:\Titulo\SGME-WEB-APP\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Titulo\SGME-WEB-APP\Controller\obj\Debug\Controller.dll
+C:\Titulo\SGME-WEB-APP\Controller\obj\Debug\Controller.pdb

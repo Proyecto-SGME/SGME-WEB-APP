@@ -14,5 +14,8 @@ namespace Entity
         public int maquina_id { get;  set; }
         public string detalle_eventos { get; set; }
         public int id_user { get;  set; }
+        public int canEventos { get; set; }
+        public string maquina { get; set; }
+
     }
 }

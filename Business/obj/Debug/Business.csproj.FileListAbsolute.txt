@@ -58,3 +58,13 @@ E:\Titulo\SGME\Business\bin\Debug\Entity.pdb
 E:\Titulo\SGME\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
 E:\Titulo\SGME\Business\obj\Debug\Business.dll
 E:\Titulo\SGME\Business\obj\Debug\Business.pdb
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Business.dll
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Business.pdb
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Controller.dll
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Entity.dll
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Configuration.dll
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Controller.pdb
+C:\Titulo\SGME-WEB-APP\Business\bin\Debug\Entity.pdb
+C:\Titulo\SGME-WEB-APP\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Titulo\SGME-WEB-APP\Business\obj\Debug\Business.dll
+C:\Titulo\SGME-WEB-APP\Business\obj\Debug\Business.pdb

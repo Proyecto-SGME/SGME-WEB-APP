@@ -70,10 +70,14 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="#"><i class="fa fa-circle-o"></i>Eventos</a></li>
-                                <li><a href="#"><i class="fa fa-circle-o"></i>Maquinas</a></li>
-                                <li><a href="#"><i class="fa fa-circle-o"></i>Metrica 3</a></li>
-                                <li><a href="#"><i class="fa fa-circle-o"></i>Metrica 4</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/00_Metricas/frmReportesEventos.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Reportes Eventos</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/00_Metricas/frmReportesMaquinas.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Reportes Maquinas</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/00_Metricas/frmReportesTecnicos.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Reportes Tecnicos</a></li>
+                                <%--<li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmRegistroEvento.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Metrica 4</a></li>--%>
                             </ul>
                         </li>
                         <!--01 Eventos -->
@@ -89,6 +93,8 @@
                                     <i class="fa fa-circle-o"></i>Registro de Eventos</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmDetalleEventos.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Detalles de Evento</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmListarEventos.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Listado de Evento</a></li>
                             </ul>
                         </li>
                         <%--02 Usuarios--%>

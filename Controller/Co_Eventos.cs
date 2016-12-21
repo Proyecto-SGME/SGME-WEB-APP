@@ -173,5 +173,29 @@ namespace Controller
             return ds;
         }
 
+        public DataSet CantidadEventos_Maquina()
+        {
+            DataSet ds = new DataSet();
+            try
+            {
+                SqlConnection SqlCn = new SqlConnection(cn.LeerConexion());
+                SqlCommand cmd = new SqlCommand("Sp_Cantidad_Eventos_Maquinas", SqlCn);
+                //cmd.Parameters.Add("@flag", SqlDbType.Int).Value = flag;
+                //cmd.Parameters.Add("@ddlFlag", SqlDbType.Int).Value = ddlFlag;
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(ds);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            return ds;
+        }
+
+
+
+
+
     }
 }

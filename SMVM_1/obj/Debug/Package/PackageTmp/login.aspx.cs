@@ -30,35 +30,47 @@ namespace SMVM_1
         protected void btnIngreso_Click(object sender, EventArgs e)
         {
             Bu_Login l = new Bu_Login();
-            DataTable dt = new DataTable();
-            dt = l.Obtiene_Usuarios();
-            string us1 = txtUsu.Text.Trim().ToUpper();
-            string pw1 = txtPw.Text.Trim().ToUpper();
-
-            foreach (DataRow d in dt.Rows)
+            int valor = l.Obtiene_Usuarios(txtUsu.Text.Trim().ToUpper(),txtPw.Text.Trim().ToUpper());
+            switch (valor)
             {
-                string us = d["us"].ToString();
-                string pw = d["pw"].ToString();
-                string id_tipo = d["id_tipo"].ToString();
-
-
-                if (us == us1  && pw == pw1)
-                {
-                    if (id_tipo == "2" || id_tipo == "3")
-                    {
-                        Response.Redirect("/view/frmPrincipal.aspx");
-                    }
-                }
-                else if (id_tipo == "1")
-                {
+                case 1:
                     ERROR.Text = "TIPO DE USUARIO NO PERMITIDO";
-                }
-                else if(us != us1 || pw != pw1)
-                {
+                    break;
+                case 2:
+                    Response.Redirect("/view/frmPrincipal.aspx");
+                    break;
+                case 3:
+                    Response.Redirect("/view/frmPrincipal.aspx");
+                    break;
+                default:
                     ERROR.Text = "USUARIO O CLAVE INCORRECTA";
-
-                }
+                    break;
             }
+
+            //foreach (DataRow d in dt.Rows)
+            //{
+            //    string us = d["us"].ToString();
+            //    string pw = d["pw"].ToString();
+            //    string id_tipo = d["id_tipo"].ToString();
+
+
+            //    if (us == us1  && pw == pw1)
+            //    {
+            //        if (id_tipo == "2" || id_tipo == "3")
+            //        {
+            //            Response.Redirect("/view/frmPrincipal.aspx");
+            //        }
+            //    }
+            //    else if (id_tipo == "1")
+            //    {
+            //        ERROR.Text = "TIPO DE USUARIO NO PERMITIDO";
+            //    }
+            //    else if(us != us1 || pw != pw1)
+            //    {
+            //        ERROR.Text = "USUARIO O CLAVE INCORRECTA";
+
+            //    }
+            //}
 
 
             

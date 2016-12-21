@@ -53,6 +53,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="GMaps">
       <HintPath>..\packages\Subgurim.Maps.4.1.0.6\lib\net20\GMaps.dll</HintPath>
     </Reference>
@@ -62,6 +66,10 @@
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -142,6 +150,8 @@
     <Content Include="plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.min.js" />
     <Content Include="plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.css" />
     <Content Include="plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.min.css" />
+    <Content Include="plugins\chartjs\Chart.js" />
+    <Content Include="plugins\chartjs\Chart.min.js" />
     <Content Include="plugins\custom_js\ValidaRut.js" />
     <Content Include="plugins\datatables\dataTables.bootstrap.css" />
     <Content Include="plugins\datatables\dataTables.bootstrap.js" />
@@ -449,6 +459,8 @@
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="plugins\timepicker\bootstrap-timepicker.min.js" />
     <Content Include="view\00_Metricas\frmReportesEventos.aspx" />
+    <Content Include="view\00_Metricas\frmReportesMaquinas.aspx" />
+    <Content Include="view\00_Metricas\frmReportesTecnicos.aspx" />
     <Content Include="view\01_Eventos\frmDetalleEventos.aspx" />
     <Content Include="view\01_Eventos\frmListarEventos.aspx" />
     <Content Include="view\02_Usuarios\frmListarUsuarios.aspx" />
@@ -496,6 +508,20 @@
     </Compile>
     <Compile Include="view\00_Metricas\frmReportesEventos.aspx.designer.cs">
       <DependentUpon>frmReportesEventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\00_Metricas\frmReportesMaquinas.aspx.cs">
+      <DependentUpon>frmReportesMaquinas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\00_Metricas\frmReportesMaquinas.aspx.designer.cs">
+      <DependentUpon>frmReportesMaquinas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\00_Metricas\frmReportesTecnicos.aspx.cs">
+      <DependentUpon>frmReportesTecnicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\00_Metricas\frmReportesTecnicos.aspx.designer.cs">
+      <DependentUpon>frmReportesTecnicos.aspx</DependentUpon>
     </Compile>
     <Compile Include="view\01_Eventos\frmDetalleEventos.aspx.cs">
       <DependentUpon>frmDetalleEventos.aspx</DependentUpon>

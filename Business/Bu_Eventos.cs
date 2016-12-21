@@ -38,5 +38,12 @@ namespace Business
         {
             return new Co_Eventos().CargarListadoEventos(id_evento);
         }
+        public DataSet CantidadEventos_Maquina()
+        {
+            return new Co_Eventos().CantidadEventos_Maquina();
+        }
+        
+
+
     }
 }
