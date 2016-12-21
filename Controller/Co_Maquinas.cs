@@ -48,7 +48,7 @@ namespace Controller
                 try
                 {
                     SqlCn.Open();
-                   
+
                     return cmd.ExecuteNonQuery();
                 }
                 catch (Exception ex)
@@ -163,6 +163,28 @@ namespace Controller
                 throw new Exception(exx.Message);
             }
         }
+        public DataSet CantidadMaquinasxMarca()
+        {
+            DataSet ds = new DataSet();
+            try
+            {
+                SqlConnection SqlCn = new SqlConnection(cn.LeerConexion());
+                SqlCommand cmd = new SqlCommand("Sp_Cantidad_Maquinas_x_Marca", SqlCn);
+                //cmd.Parameters.Add("@flag", SqlDbType.Int).Value = flag;
+                //cmd.Parameters.Add("@ddlFlag", SqlDbType.Int).Value = ddlFlag;
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(ds);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+            return ds;
+        }
+
+
+
 
     }
 }

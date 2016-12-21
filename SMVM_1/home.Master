@@ -153,8 +153,8 @@
                                     <i class="fa fa-circle-o"></i>Crea Ubicación</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmCreaHorarioUbicacion.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Horarios Ubicación</a></li>
-                                <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmUbicacionElimina.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Elimina Ubicación</a></li>
+                              <%--  <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmUbicacionElimina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Elimina Ubicación</a></li>--%>
 
                             </ul>
                         </li>
@@ -197,8 +197,8 @@
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmCreaContacto.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Crea Contacto</a></li>
-                                <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmContactoElimina.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Elimina Contacto</a></li>
+                            <%--    <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmContactoElimina.aspx") %>">
+                                    <i class="fa fa-circle-o"></i>Elimina Contacto</a></li>--%>
                             </ul>
                         </li>
                         <%--09 Otros--%>
@@ -213,9 +213,9 @@
                                 <li><a href="#"><i class="fa fa-circle-o"></i>Otros 2</a></li>
                             </ul>
                         </li>--%>
-                        <li class="header">AVISOS</li>
-                        <li><a href="#"><i class="fa fa-circle-o text-red"></i><span>Importante</span></a></li>
-                        <li><a href="#"><i class="fa fa-circle-o text-aqua"></i><span>Información</span></a></li>
+                        <li class="header">SALIR</li>
+                        <li><a href="<%= Page.ResolveUrl("~/login.aspx") %>"><i class="fa fa-circle-o text-red"></i><span>SALIR</span></a></li>
+                        <%--<li><a href="#"><i class="fa fa-circle-o text-aqua"></i><span>Información</span></a></li>--%>
                     </ul>
                 </section>
             </aside>
@@ -317,7 +317,17 @@
 
         });
     </script>
-
+    <script type="text/javascript">
+        window.onload=function(){
+	        Objeto=document.getElementsByTagName("a");
+	        for(a=0;a<Objeto.length;a++){
+		        Objeto[a].onclick=function(){
+			        location.replace(this.href);
+			        return false;
+		        }
+	        }
+        }
+        </script>
     <asp:ContentPlaceHolder ID="ScriptContent" runat="server" />
 
 </body>

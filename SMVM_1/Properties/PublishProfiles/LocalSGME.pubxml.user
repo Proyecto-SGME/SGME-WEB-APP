@@ -10,19 +10,19 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Business.dll">
-      <publishTime>12/21/2016 01:45:18</publishTime>
+      <publishTime>12/21/2016 17:12:43</publishTime>
     </File>
     <File Include="bin/Business.pdb">
-      <publishTime>12/21/2016 01:45:18</publishTime>
+      <publishTime>12/21/2016 17:12:43</publishTime>
     </File>
     <File Include="bin/Configuration.dll">
       <publishTime>12/20/2016 22:35:35</publishTime>
     </File>
     <File Include="bin/Controller.dll">
-      <publishTime>12/21/2016 01:45:18</publishTime>
+      <publishTime>12/21/2016 17:12:43</publishTime>
     </File>
     <File Include="bin/Controller.pdb">
-      <publishTime>12/21/2016 01:45:18</publishTime>
+      <publishTime>12/21/2016 17:12:43</publishTime>
     </File>
     <File Include="bin/Entity.dll">
       <publishTime>12/21/2016 01:31:39</publishTime>
@@ -40,10 +40,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/20/2016 22:35:35</publishTime>
     </File>
     <File Include="bin/SMVM_1.dll">
-      <publishTime>12/21/2016 01:45:18</publishTime>
+      <publishTime>12/21/2016 17:13:28</publishTime>
     </File>
     <File Include="bin/SMVM_1.pdb">
-      <publishTime>12/21/2016 01:45:18</publishTime>
+      <publishTime>12/21/2016 17:13:28</publishTime>
     </File>
     <File Include="bin/Tde.Controles.RutTextBox.dll">
       <publishTime>12/20/2016 22:35:29</publishTime>
@@ -478,22 +478,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/20/2016 22:35:29</publishTime>
     </File>
     <File Include="home.Master">
-      <publishTime>12/20/2016 23:55:50</publishTime>
+      <publishTime>12/21/2016 17:15:49</publishTime>
     </File>
     <File Include="home.Master.cs">
-      <publishTime>12/20/2016 22:35:29</publishTime>
+      <publishTime>12/21/2016 12:00:19</publishTime>
     </File>
     <File Include="home.Master.designer.cs">
       <publishTime>12/20/2016 22:35:29</publishTime>
     </File>
     <File Include="login.aspx">
-      <publishTime>12/20/2016 22:35:29</publishTime>
+      <publishTime>12/21/2016 16:30:58</publishTime>
     </File>
     <File Include="login.aspx.cs">
       <publishTime>12/20/2016 22:35:29</publishTime>
     </File>
     <File Include="login.aspx.designer.cs">
-      <publishTime>12/20/2016 22:35:29</publishTime>
+      <publishTime>12/21/2016 16:30:58</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>12/21/2016 01:09:58</publishTime>
@@ -1495,31 +1495,31 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/21/2016 01:31:31</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesEventos.aspx">
-      <publishTime>12/21/2016 01:42:13</publishTime>
+      <publishTime>12/21/2016 16:23:02</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesEventos.aspx.cs">
-      <publishTime>12/21/2016 01:44:30</publishTime>
+      <publishTime>12/21/2016 16:13:29</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesEventos.aspx.designer.cs">
-      <publishTime>12/21/2016 01:41:17</publishTime>
+      <publishTime>12/21/2016 16:12:33</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesMaquinas.aspx">
-      <publishTime>12/20/2016 23:36:08</publishTime>
+      <publishTime>12/21/2016 16:23:03</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesMaquinas.aspx.cs">
-      <publishTime>12/20/2016 22:37:39</publishTime>
+      <publishTime>12/21/2016 16:08:48</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesMaquinas.aspx.designer.cs">
-      <publishTime>12/20/2016 22:38:30</publishTime>
+      <publishTime>12/21/2016 15:25:47</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesTecnicos.aspx">
-      <publishTime>12/21/2016 01:35:56</publishTime>
+      <publishTime>12/21/2016 17:14:46</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesTecnicos.aspx.cs">
-      <publishTime>12/20/2016 22:38:06</publishTime>
+      <publishTime>12/21/2016 17:13:28</publishTime>
     </File>
     <File Include="view/00_Metricas/frmReportesTecnicos.aspx.designer.cs">
-      <publishTime>12/21/2016 01:35:49</publishTime>
+      <publishTime>12/21/2016 17:07:47</publishTime>
     </File>
     <File Include="view/01_Eventos/frmDetalleEventos.aspx">
       <publishTime>12/20/2016 22:35:34</publishTime>
@@ -1711,7 +1711,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/20/2016 22:35:35</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>12/21/2016 01:46:11</publishTime>
+      <publishTime>12/21/2016 16:21:10</publishTime>
     </File>
     <File Include="Web.Debug.config">
       <publishTime>12/20/2016 22:35:29</publishTime>

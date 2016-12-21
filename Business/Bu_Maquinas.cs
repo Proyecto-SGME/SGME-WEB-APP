@@ -34,6 +34,9 @@ namespace Business
         {
             return new Co_Maquinas().RegistraInstalacionMaquina(m);
         }
-
+        public DataSet CantidadMaquinasxMarca()
+        {
+            return new Co_Maquinas().CantidadMaquinasxMarca();
+        }
     }
 }

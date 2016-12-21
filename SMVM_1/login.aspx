@@ -16,8 +16,15 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+       function comprueba() {
+           return confirm("Confirme el postback");
 
+       }
+    </script>
     <title>SMVM</title>
+
 </head>
 <body>
 
@@ -39,7 +46,7 @@
                         <br />
                         <asp:TextBox ID="txtPw" runat="server" type="password" class="form-control" placeholder="Contraseña" required></asp:TextBox>
                         <br />
-                        <asp:Button ID="btnIngreso" runat="server" Text="Ingreso" class="btn btn-lg btn-primary btn-block" OnClick="btnIngreso_Click" />
+                        <asp:Button ID="btnIngreso" runat="server" Text="Ingreso" class="btn btn-lg btn-primary btn-block" OnClick="btnIngreso_Click" OnClientClick="return true;"/>
                         <%--<asp:Button ID="btnIngreso" runat="server" class="btn btn-lg btn-primary btn-block">Ingresar</asp:Button>--%>
 
 

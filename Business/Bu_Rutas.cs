@@ -19,5 +19,9 @@ namespace Business
         {
             return new Co_Rutas().RegistroRutaTecnico(r);
         }
+        public DataSet CantidadRutasTecnico()
+        {
+            return new Co_Rutas().CantidadRutasTecnico();
+        }
     }
 }

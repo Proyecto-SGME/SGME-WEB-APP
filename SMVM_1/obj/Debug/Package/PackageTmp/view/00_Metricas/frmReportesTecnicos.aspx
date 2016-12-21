@@ -11,7 +11,7 @@
         <!-- Default box -->
         <div class="box">
             <div class="box-header with-border">
-                <h3 class="box-title">REPORTES DE EVENTOS</h3>
+                <h3 class="box-title">CANTIDAD DE RUTAS ASIGNADAS POR TECNICO</h3>
                 <div class="box-tools pull-right">
                     <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
                         <i class="fa fa-minus"></i>
@@ -20,7 +20,17 @@
             </div>
             <div class="box-body">
                 <!--Aqui iria el Contenido de la pagina-->
-             
+                   <div class="box box-warning">
+                    <asp:Chart ID="Chart1" runat="server" Height="386px" Width="667px" CssClass="auto-style1" style="margin-right: 139px">
+                        <Series>
+                            <asp:Series Name="Series1" XValueMember="TÉCNICO" YValueMembers="CANTIDAD DE RUTAS"></asp:Series>
+                        </Series>
+                        <ChartAreas>
+                            <asp:ChartArea Name="ChartArea1" Area3DStyle-Enable3D="true"></asp:ChartArea>
+                        </ChartAreas>
+                    </asp:Chart>
+                    <div id="ListarTecnico" runat="server" class="box-body no-padding">
+                    </div>
                 
               
                 </div>

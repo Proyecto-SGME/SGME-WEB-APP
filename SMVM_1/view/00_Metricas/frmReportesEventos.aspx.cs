@@ -19,6 +19,13 @@ namespace SMVM_1.view._00_Metricas
         protected void Page_Load(object sender, EventArgs e)
         {
             CargaTabla();
+            CargaChart();
+        }
+        private void CargaChart()
+        {
+            Bu_Eventos b = new Bu_Eventos();
+            Chart1.DataSource = b.CantidadEventos_Maquina();
+            Chart1.DataBind();
         }
         private void CargaTabla()
         {
