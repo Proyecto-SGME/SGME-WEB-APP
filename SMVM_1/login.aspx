@@ -33,7 +33,7 @@
             <div class="col-sm-6 col-md-4 col-md-offset-4">
                 <br />
                 <br />
-                <img class="profile-img" src="http://sendigital.in/icon/customer_login.png"
+                <img class="profile-img" src="https://www.inspectionsupport.net/wp-content/uploads/2014/07/LoginRed.jpg"
                     alt="">
                 <h1 class="text-center login-title">Sistema de Gestion</h1>
                 <br />

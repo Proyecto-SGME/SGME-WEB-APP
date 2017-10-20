@@ -71,11 +71,11 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/00_Metricas/frmReportesEventos.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Reportes Eventos</a></li>
+                                    <i class="fa fa-angle-right"></i>Reportes Eventos</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/00_Metricas/frmReportesMaquinas.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Reportes Maquinas</a></li>
+                                    <i class="fa fa-angle-right"></i>Reportes Maquinas</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/00_Metricas/frmReportesTecnicos.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Reportes Tecnicos</a></li>
+                                    <i class="fa fa-angle-right"></i>Reportes Tecnicos</a></li>
                                 <%--<li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmRegistroEvento.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Metrica 4</a></li>--%>
                             </ul>
@@ -90,11 +90,11 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmRegistroEvento.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Registro de Eventos</a></li>
+                                    <i class="fa fa-angle-right"></i>Registro de Eventos</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmDetalleEventos.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Detalles de Evento</a></li>
+                                    <i class="fa fa-angle-right"></i>Detalles de Evento</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/01_Eventos/frmListarEventos.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Listado de Evento</a></li>
+                                    <i class="fa fa-angle-right"></i>Listado de Evento</a></li>
                             </ul>
                         </li>
                         <%--02 Usuarios--%>
@@ -104,13 +104,13 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmUsuarios.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Usuario</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Usuario</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmUsuarioCambiaClave.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Cambio Clave</a></li>
+                                    <i class="fa fa-angle-right"></i>Cambio Clave</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmCreaTipoUsuario.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Tipo Usuario</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Tipo Usuario</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/02_Usuarios/frmListarUsuarios.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Listar Usuarios</a></li>
+                                    <i class="fa fa-angle-right"></i>Listar Usuarios</a></li>
                             </ul>
                         </li>
                         <%--03 Rutas--%>
@@ -122,7 +122,7 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/03_Rutas/frmCreaRuta.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Ruta de Trabajo</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Ruta de Trabajo</a></li>
                             </ul>
                         </li>
                         <%--04 Maquinas--%>
@@ -134,11 +134,11 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/04_Maquinas/frmCreaMaquina.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Maquina</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Maquina</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/04_Maquinas/frmInstalacionMaquina.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Instalación Maquina</a></li>
+                                    <i class="fa fa-angle-right"></i>Instalación Maquina</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/04_Maquinas/frmCrearMarcaModelo.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Marca y Modelo</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Marca y Modelo</a></li>
                             </ul>
                         </li>
                         <%--05 Ubicaciones--%>
@@ -150,9 +150,9 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmCreaUbicacion.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Ubicación</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Ubicación</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmCreaHorarioUbicacion.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Horarios Ubicación</a></li>
+                                    <i class="fa fa-angle-right"></i>Horarios Ubicación</a></li>
                               <%--  <li><a href="<%= Page.ResolveUrl("~/view/05_Ubicaciones/frmUbicacionElimina.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Elimina Ubicación</a></li>--%>
 
@@ -167,7 +167,7 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/06_Direcciones/frmCreaDireccion.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Dirección</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Dirección</a></li>
                                 <%--<li><a href="<%= Page.ResolveUrl("~/view/06_Direcciones/frmDireccionElimina.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Elimina Dirección</a></li>--%>
                             </ul>
@@ -182,9 +182,9 @@
                             <ul class="treeview-menu">
                                 <li>
                                     <a href="<%= Page.ResolveUrl("~/view/07_Clientes/frmClientes.aspx") %>">
-                                        <i class="fa fa-circle-o"></i>Crea Cliente</a></li>
+                                        <i class="fa fa-angle-right"></i>Crea Cliente</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/07_Clientes/frmClienteActualiza.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Nuevo Dato Cliente</a></li>
+                                    <i class="fa fa-angle-right"></i>Nuevo Dato Cliente</a></li>
                             </ul>
                         </li>
                         <%--08 Contacto--%>
@@ -196,9 +196,24 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmCreaContacto.aspx") %>">
-                                    <i class="fa fa-circle-o"></i>Crea Contacto</a></li>
+                                    <i class="fa fa-angle-right"></i>Crea Contacto</a></li>
                             <%--    <li><a href="<%= Page.ResolveUrl("~/view/08_Contactos/frmContactoElimina.aspx") %>">
                                     <i class="fa fa-circle-o"></i>Elimina Contacto</a></li>--%>
+                            </ul>
+                        </li>
+                        <%--09 Orden de Trabajo--%>
+                        <li class="">
+                            <a href="#"><i class="fa fa-archive"></i>Orden Trabajo
+                                <span class="pull-right-container">
+                                    <i class="fa fa-angle-left pull-right"></i>
+                                </span>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="<%= Page.ResolveUrl("~/view/09_OT/frmOrdenCompra.aspx") %>">
+                                        <i class="fa fa-angle-right"></i>Crea Orden de Compra</a></li>
+                                <li><a href="<%= Page.ResolveUrl("~/view/09_OT/frmListaOT.aspx") %>">
+                                        <i class="fa fa-angle-right"></i>Listar las Ordenes de Compra</a></li>
                             </ul>
                         </li>
                         <%--09 Otros--%>
@@ -214,8 +229,7 @@
                             </ul>
                         </li>--%>
                         <li class="header">SALIR</li>
-                        <li><a href="<%= Page.ResolveUrl("~/login.aspx") %>"><i class="fa fa-circle-o text-red"></i><span>SALIR</span></a></li>
-                        <%--<li><a href="#"><i class="fa fa-circle-o text-aqua"></i><span>Información</span></a></li>--%>
+                        <li><a href="<%= Page.ResolveUrl("~/login.aspx") %>"><i class="fa fa-power-off text-red"></i><span>SALIR</span></a></li>
                     </ul>
                 </section>
             </aside>

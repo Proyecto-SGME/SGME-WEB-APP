@@ -21,6 +21,7 @@
     <IISExpressUseClassicPipelineMode />
     <TargetFrameworkProfile />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -479,6 +480,8 @@
     <Content Include="view\04_Maquinas\frmInstalacionMaquina.aspx" />
     <Content Include="view\02_Usuarios\frmCreaTipoUsuario.aspx" />
     <Content Include="view\02_Usuarios\frmUsuarioCambiaClave.aspx" />
+    <Content Include="view\09_OT\frmListaOT.aspx" />
+    <Content Include="view\09_OT\frmOrdenCompra.aspx" />
     <Content Include="view\frmPrincipal.aspx" />
     <Content Include="view\01_Eventos\frmRegistroEvento.aspx" />
     <Content Include="view\02_Usuarios\frmUsuarios.aspx" />
@@ -649,6 +652,20 @@
     <Compile Include="view\02_Usuarios\frmUsuarioCambiaClave.aspx.designer.cs">
       <DependentUpon>frmUsuarioCambiaClave.aspx</DependentUpon>
     </Compile>
+    <Compile Include="view\09_OT\frmListaOT.aspx.cs">
+      <DependentUpon>frmListaOT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\09_OT\frmListaOT.aspx.designer.cs">
+      <DependentUpon>frmListaOT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="view\09_OT\frmOrdenCompra.aspx.cs">
+      <DependentUpon>frmOrdenCompra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="view\09_OT\frmOrdenCompra.aspx.designer.cs">
+      <DependentUpon>frmOrdenCompra.aspx</DependentUpon>
+    </Compile>
     <Compile Include="view\frmPrincipal.aspx.cs">
       <DependentUpon>frmPrincipal.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -796,9 +813,7 @@
       <Name>Entity</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="view\09_Otros\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
