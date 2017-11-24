@@ -48,6 +48,7 @@
     <Compile Include="Bu_Eventos.cs" />
     <Compile Include="Bu_Login.cs" />
     <Compile Include="Bu_Maquinas.cs" />
+    <Compile Include="Bu_OrdenTrabajo.cs" />
     <Compile Include="Bu_Rutas.cs" />
     <Compile Include="Bu_Ubicaciones.cs" />
     <Compile Include="Bu_Usuario.cs" />

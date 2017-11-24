@@ -59,6 +59,7 @@
     <Compile Include="Co_Cliente.cs" />
     <Compile Include="Co_Eventos.cs" />
     <Compile Include="Co_Maquinas.cs" />
+    <Compile Include="Co_OrdenTrabajo.cs" />
     <Compile Include="Co_Rutas.cs" />
     <Compile Include="Co_Ubicaciones.cs" />
     <Compile Include="Co_Usuario.cs" />

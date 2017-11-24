@@ -99,3 +99,14 @@ D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.csprojR
 D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.dll
 D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.pdb
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Business.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Business.pdb
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Controller.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Entity.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Configuration.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Controller.pdb
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\bin\Debug\Entity.pdb
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Business\obj\Debug\Business.pdb

@@ -210,7 +210,7 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li>
-                                    <a href="<%= Page.ResolveUrl("~/view/09_OT/frmOrdenCompra.aspx") %>">
+                                    <a href="<%= Page.ResolveUrl("~/view/09_OT/frmOrdenTrabajo.aspx") %>">
                                         <i class="fa fa-angle-right"></i>Crea Orden de Compra</a></li>
                                 <li><a href="<%= Page.ResolveUrl("~/view/09_OT/frmListaOT.aspx") %>">
                                         <i class="fa fa-angle-right"></i>Listar las Ordenes de Compra</a></li>

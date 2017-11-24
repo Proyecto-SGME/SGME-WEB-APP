@@ -43,3 +43,9 @@ D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.csprojResol
 D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
 D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.dll
 D:\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.pdb
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\bin\Debug\Entity.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\bin\Debug\Entity.pdb
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.dll
+C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Entity\obj\Debug\Entity.pdb
