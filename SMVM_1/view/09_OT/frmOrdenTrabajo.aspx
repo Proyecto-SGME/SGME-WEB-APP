@@ -64,7 +64,7 @@
                                         <div class="input-group-addon">
                                             <i class="fa fa-calendar"></i>
                                         </div>
-                                        <asp:TextBox ID="TextBox1" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
+                                        <asp:TextBox ID="txtHoraInicio" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
                                     </div>
                                 </div>
                             </td>
@@ -78,7 +78,7 @@
                                         <div class="input-group-addon">
                                             <i class="fa fa-calendar"></i>
                                         </div>
-                                        <asp:TextBox ID="TextBox2" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
+                                        <asp:TextBox ID="txtHoraTermino" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
                                     </div>
                                 </div>
                             </td>
@@ -93,7 +93,7 @@
                                     
                                     <div class="form-group">
                                         <label>Requerimiento</label>
-                                        <textarea id="txtDetalle" runat="server" class="form-control" rows="3" placeholder="Enter ..." required></textarea>
+                                        <textarea id="txtRequerimiento" runat="server" class="form-control" rows="3" placeholder="Enter ..." required></textarea>
                                     </div>
                                 </div>
                             </td>
@@ -104,7 +104,7 @@
                                 <div class="form-group">
                                     <div class="form-group">
                                         <label>Solución</label>
-                                        <textarea id="Textarea1" runat="server" class="form-control" rows="3" placeholder="Enter ..." required></textarea>
+                                        <textarea id="txtSolucion" runat="server" class="form-control" rows="3" placeholder="Enter ..." required></textarea>
                                     </div>
                                 </div>
 
@@ -117,7 +117,7 @@
 
                     <div class="box-footer">
                         <%--<asp:Button ID="btnRegistrar" runat="server" class="btn btn-group btn-primary" Text="Registrar" OnClick="btnRegistrar_Click" />--%>
-                        <asp:Button ID="btnRegistro" runat="server" class="btn btn-group btn-primary" Text="Registrar" />
+                        <asp:Button ID="btnRegistro" runat="server" class="btn btn-group btn-primary" Text="Registrar" OnClick="btnRegistro_Click" />
                     </div>
                 </div>
 
