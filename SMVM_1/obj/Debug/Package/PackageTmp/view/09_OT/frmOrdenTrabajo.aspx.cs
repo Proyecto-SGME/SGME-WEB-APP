@@ -27,7 +27,7 @@ namespace SMVM_1.view._09_OT
             {
                 if (!IsPostBack)
                 {
-                    CargaBox(ddlEmpresa, 19, 0); //19 - Carga las empresas
+                    CargaBox(ddlCliente, 19, 0); //19 - Carga las empresas
                 }
             }
             catch (Exception)
@@ -40,7 +40,7 @@ namespace SMVM_1.view._09_OT
         {
             OT ot = new OT();
             Bu_OrdenTrabajo bu = new Bu_OrdenTrabajo();
-            if (ddlEmpresa.SelectedValue == "0")
+            if (ddlCliente.SelectedValue == "0")
             {
                 Response.Write("<script language=javascript>alert('DEBES SELECCIONAR UNA EMPRESA');</script>");
             }
@@ -48,12 +48,24 @@ namespace SMVM_1.view._09_OT
             {
                 ot.fecha_inicio = Convert.ToDateTime(txtFechaTrabajo.Text.Trim());
             }
-       
-        }
-
-        protected void ddlContacto_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            CargaBox(ddlEmpresa, 19, Convert.ToInt32(ddlEmpresa.SelectedValue)); 
+            //else if (txtRequerimiento.t)
+            //{
+            //    //u.usuario_rut = v.Aux;
+            //    //u.usuario_dv = v.dv;
+            //    //u.usuario_us = txtUs.Text.Trim();
+            //    //u.usuario_pw = txtPw.Text.Trim();
+            //    //u.usuario_nombre = txtNombre.Text.Trim();
+            //    //u.usuario_paterno = txtPaterno.Text.Trim();
+            //    //u.usuario_materno = txtMaterno.Text.Trim();
+            //    //u.usuario_nacimiento = Convert.ToDateTime(txtNacimiento.Text.Trim());
+            //    //u.id_user = 16712750;
+            //    //u.tipo_usuario_id = Convert.ToInt32(ddlTipoUsuario.SelectedValue);
+            //    //bu.IngresaUsuario(u);
+            //}
+            //else
+            //{
+            //    Response.Write("<script language=javascript>alert('RUT INVALIDO VERIFIQUE');</script>");
+            //}
         }
     }
 }

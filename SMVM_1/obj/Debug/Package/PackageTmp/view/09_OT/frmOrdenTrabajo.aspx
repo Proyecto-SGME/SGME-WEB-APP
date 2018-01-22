@@ -20,19 +20,11 @@
                 <div class="box box-warning">
                     <table id="t_cliente" runat="server">
                         <tr>
-                            <!--Seleccion de Empresa y contacto-->
                             <td>
-                                
+                                <!--Fecha de Trabajo-->
                                 <div class="form-group">
-                                    <label>Seleccione Empresa</label>
-                                    <asp:DropDownList ID="ddlEmpresa" runat="server" Width="300px" class="form-control" ></asp:DropDownList>
-                                </div>
-                            </td>
-                            <td>
-                                
-                                <div class="form-group">
-                                    <label>Seleccione Contacto</label>
-                                    <asp:DropDownList ID="ddlContacto" runat="server" Width="300px" class="form-control" OnSelectedIndexChanged="ddlContacto_SelectedIndexChanged" ></asp:DropDownList>
+                                    <label>Seleccione Cliente</label>
+                                    <asp:DropDownList ID="ddlCliente" runat="server" Width="300px" class="form-control" ></asp:DropDownList>
                                 </div>
                             </td>
                            

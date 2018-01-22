@@ -66,7 +66,6 @@
                                         <label>Seleccione Tipo Usuario</label>
                                         <asp:DropDownList ID="ddlTipoUsuario" runat="server" Width="300px" class="form-control" AutoPostBack="True"></asp:DropDownList>
                                     </div>
-                                <%--<asp:TextBox ID="TextBox2" runat="server" Width="300px" class="form-control" placeholder="Nombre ..."></asp:TextBox>--%>
                             </div>
                             </td>
                         </tr>

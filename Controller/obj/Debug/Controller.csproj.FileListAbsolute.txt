@@ -121,3 +121,15 @@ C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\ob
 C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
 C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.dll
 C:\Users\Abdon\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.pdb
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Controller.dll
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Controller.pdb
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Bluefragments.ConfigurationManager.dll
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Configuration.dll
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Entity.dll
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Entity.pdb
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.dll
+C:\Users\Abdon Sandoval\Documents\Proyectos_Abdon\VisualStudio\SGME-WEB-APP\Controller\obj\Debug\Controller.pdb
