@@ -23,7 +23,7 @@
 
        }
     </script>
-    <title>SMVM</title>
+    <title>Sistema Gestión</title>
 
 </head>
 <body>

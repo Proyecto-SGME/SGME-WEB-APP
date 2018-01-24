@@ -20,19 +20,16 @@
                 <div class="box box-warning">
                     <table id="t_cliente" runat="server">
                         <tr>
-                            <!--Seleccion de Empresa y contacto-->
                             <td>
-                                
                                 <div class="form-group">
                                     <label>Seleccione Empresa</label>
-                                    <asp:DropDownList ID="ddlEmpresa" runat="server" Width="300px" class="form-control" ></asp:DropDownList>
+                                    <asp:DropDownList ID="ddlEmpresa" runat="server" Width="300px" class="form-control" OnSelectedIndexChanged="ddlEmpresa_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
                                 </div>
                             </td>
                             <td>
-                                
                                 <div class="form-group">
                                     <label>Seleccione Contacto</label>
-                                    <asp:DropDownList ID="ddlContacto" runat="server" Width="300px" class="form-control" OnSelectedIndexChanged="ddlContacto_SelectedIndexChanged" ></asp:DropDownList>
+                                    <asp:DropDownList ID="ddlContacto" runat="server" Width="300px" class="form-control" ></asp:DropDownList>
                                 </div>
                             </td>
                            
@@ -49,7 +46,7 @@
                                         <div class="input-group-addon">
                                             <i class="fa fa-calendar"></i>
                                         </div>
-                                        <asp:TextBox ID="txtFechaTrabajo" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
+                                        <asp:TextBox ID="txtFechaTrabajo" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask ></asp:TextBox>
                                     </div>
                                 </div>
                             </td>
@@ -64,8 +61,9 @@
                         </tr>
                         <tr>
                             <td>
+
                                 <!--Hora de Inicio-->
-                                <div class="form-group">
+                               <%-- <div class="form-group">
                                     <label>Hora de Inicio</label>
 
                                     <div class="input-group">
@@ -74,12 +72,49 @@
                                         </div>
                                         <asp:TextBox ID="txtHoraInicio" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
                                     </div>
+                                </div>--%>
+
+                                <!-- time Picker -->
+                              <div class="bootstrap-timepicker">
+                                <div class="form-group">
+                                  <label>Hora de Inicio</label>
+
+                                  <div class="input-group">
+                                    <%--<input type="text" class="form-control timepicker">--%>
+                                      <asp:TextBox ID="txtHoraInicio" runat="server" class="form-control timepicker" ></asp:TextBox>
+
+                                    <div class="input-group-addon">
+                                      <i class="fa fa-clock-o"></i>
+                                    </div>
+                                  </div>
+                                  <!-- /.input group -->
                                 </div>
+                                <!-- /.form group -->
+                              </div>
+
+
                             </td>
                             <td></td>
                             <td>
-                                <!--Hora de Termino-->
+                                <!-- time Picker -->
+                              <div class="bootstrap-timepicker">
                                 <div class="form-group">
+                                  <label>Hora de Termino</label>
+
+                                  <div class="input-group">
+                                    <%--<input type="text" class="form-control timepicker">--%>
+                                      <asp:TextBox ID="txtHoraTermino" runat="server" class="form-control timepicker" ></asp:TextBox>
+
+                                    <div class="input-group-addon">
+                                      <i class="fa fa-clock-o"></i>
+                                    </div>
+                                  </div>
+                                  <!-- /.input group -->
+                                </div>
+                                <!-- /.form group -->
+                              </div>
+                                <!--Hora de Termino-->
+                                <%--<div class="form-group">
                                     <label>Hora de Termino</label>
 
                                     <div class="input-group">
@@ -88,7 +123,7 @@
                                         </div>
                                         <asp:TextBox ID="txtHoraTermino" runat="server" Width="260px" class="form-control" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required></asp:TextBox>
                                     </div>
-                                </div>
+                                </div>--%>
                             </td>
                         </tr>
                        

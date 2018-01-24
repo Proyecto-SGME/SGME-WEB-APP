@@ -46,14 +46,34 @@ namespace SMVM_1.view._09_OT
             }
             else
             {
-                ot.fecha_inicio = Convert.ToDateTime(txtFechaTrabajo.Text.Trim());
+                try
+                {
+                    ot.fecha_trabajo = Convert.ToDateTime(txtFechaTrabajo.Text.Trim());
+                    ot.hora_inicio = txtHoraInicio.Text;
+                    ot.hora_fin = txtHoraTermino.Text;
+                    ot.cantidad_hora = Convert.ToInt32(txtHH.Text.Trim());
+                    ot.requerimiento = txtRequerimiento.Value.Trim().ToUpper();
+                    ot.solucion = txtSolucion.Value.Trim().ToUpper();
+                    ot.contacto_empresa_id = Convert.ToInt32(ddlContacto.SelectedValue);
+                    ot.id_user = 16712750;
+                    bu.RegistrarOT(ot);
+                    
+
+                }
+                catch (Exception)
+                {
+                    Response.Write("<script language=javascript>alert('ERROR : " + e.ToString() + "');</script>");
+                }
+                
+
             }
-       
         }
 
-        protected void ddlContacto_SelectedIndexChanged(object sender, EventArgs e)
+        
+        protected void ddlEmpresa_SelectedIndexChanged(object sender, EventArgs e)
         {
-            CargaBox(ddlEmpresa, 19, Convert.ToInt32(ddlEmpresa.SelectedValue)); 
+            int ddl = Convert.ToInt32(ddlEmpresa.SelectedValue);
+            CargaBox(ddlContacto, 20, ddl);
         }
     }
 }
