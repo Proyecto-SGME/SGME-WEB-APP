@@ -16,7 +16,9 @@ namespace Controller
             {
                 return
 
+
                     ConfigurationManager.ConnectionStrings["sgme"].ConnectionString;
+
             }
             catch (Exception ex)
             {

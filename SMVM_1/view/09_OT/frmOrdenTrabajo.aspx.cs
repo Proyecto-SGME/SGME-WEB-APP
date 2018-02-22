@@ -57,8 +57,7 @@ namespace SMVM_1.view._09_OT
                     ot.contacto_empresa_id = Convert.ToInt32(ddlContacto.SelectedValue);
                     ot.id_user = 16712750;
                     bu.RegistrarOT(ot);
-                    
-
+                    recarga();
                 }
                 catch (Exception)
                 {
@@ -69,7 +68,20 @@ namespace SMVM_1.view._09_OT
             }
         }
 
-        
+       
+        private void recarga()
+        {
+            ddlEmpresa.SelectedIndex = 0;
+            ddlContacto.SelectedIndex = 0;
+            txtFechaTrabajo.Text = "";
+            txtHH.Text = "";
+            txtHoraInicio.Text = "";
+            txtHoraTermino.Text = "";
+            txtRequerimiento.Value = "";
+            txtSolucion.Value = "";
+
+        }
+
         protected void ddlEmpresa_SelectedIndexChanged(object sender, EventArgs e)
         {
             int ddl = Convert.ToInt32(ddlEmpresa.SelectedValue);
